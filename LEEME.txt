@@ -1,0 +1,17 @@
+FINANZAS EN PAREJA - cómo publicarla gratis (una sola vez, desde un computador)
+
+1. Entren a github.com y creen una cuenta (gratis).
+2. Botón "New repository" → nombre: finanzas → Public → Create repository.
+3. "uploading an existing file" → arrastren TODOS los archivos de esta carpeta
+   (index.html, manifest.webmanifest, sw.js y los 3 icon-*.png) → Commit changes.
+4. Settings → Pages → Branch: main, carpeta / (root) → Save.
+5. En 1-2 minutos la app queda en: https://SU-USUARIO.github.io/finanzas/
+
+En cada celular (Samsung):
+- Abran ese enlace en CHROME → menú ⋮ → "Instalar aplicación".
+- Ajustes de la app → peguen la URL de Google Sheets (la misma en los dos).
+- Ajustes → "Registro automático con Google Wallet" → sigan los pasos de MacroDroid.
+
+Para actualizar la app más adelante: suban el index.html nuevo al mismo repositorio
+y cambien 'finanzas-v1' por 'finanzas-v2' en sw.js.
+Los datos NO quedan en GitHub: viven en cada celular y en su Google Sheet.
